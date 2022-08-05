@@ -1,6 +1,6 @@
 import React from "react";
 
-function BlogContent(props) {
+function BlogContent({articleText}) {
   return <div id="blog-content">{props.articleText}</div>;
 }
 
